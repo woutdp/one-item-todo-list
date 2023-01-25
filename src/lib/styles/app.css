@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .fancy-scrollbar {
+        @apply scrollbar-thin scrollbar-track-primary-200 scrollbar-thumb-primary-500 scrollbar-corner-primary-200 scrollbar-thumb-rounded-full scrollbar-w-2;
+    }
+}
