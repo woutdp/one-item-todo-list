@@ -11,7 +11,7 @@
     }
 
     function undo(id: number) {
-        $save.current = $save.done.splice(id, 1)
+        $save.current = $save.done.splice(id, 1)[0]
         $save.done = $save.done
         textArea.focus()
     }
